@@ -10,7 +10,7 @@ def number_of_subscribers(subreddit):
     """
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {
-        "User-Agent": "Linux:0x016.project:v1.0.0 (by /u/BismarkAidoo)"
+        "User-Agent": "Obrempong@dgreat:0x016.project:v1.0.0 (by /u/BismarkAidoo)"
         }
     subreddit_data = requests.get(url,
                                   headers=headers,
